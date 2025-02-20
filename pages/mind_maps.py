@@ -23,7 +23,7 @@ def extract_text_from_docx(file):
     return "\n".join(full_text)
 
 def generate_mind_map(topic, description, study_plan, timeframe):
-    GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "AIzaSyB-4ynxUsnEsnES-qINI6skuZL5_05o1AA")
+    GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "Your API Key")
     genai.configure(api_key=GEMINI_API_KEY)
     generation_config = {
         "temperature": 1.6,
