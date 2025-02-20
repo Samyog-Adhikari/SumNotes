@@ -130,7 +130,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # ----------------- API Configuration -----------------
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "AIzaSyB-4ynxUsnEsnES-qINI6skuZL5_05o1AA")
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "Your API Key")
 genai.configure(api_key=GEMINI_API_KEY)
 
 # ----------------- Model Initialization -----------------
